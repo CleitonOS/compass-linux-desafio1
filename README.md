@@ -40,7 +40,7 @@
 - Recomendo que você selecione está opção "Pré-alocar Tamanho Total", principalmente se você não tem muito espaço de armazenamento disponível.
 <img src="Pre-alocandoTamanho.png">
 
-- Definindo um tamanho para o disco rígido virtual, recomendo que selecione um tamanho maior que o arquivo de instalação do "Oracle Linux". Nesse caso vou selecionar 20 GB que é mais do que suficiente.]
+- Definindo um tamanho para o disco rígido virtual, recomendo que selecione um tamanho maior que o arquivo de instalação do "Oracle Linux". Nesse caso vou selecionar 20 GB que é mais do que suficiente.
 <img src="DefinindoTamanhoArmazenamento.png">
 
 - Agora basta finalizar o processo e adicionar o disco rígido virtual que você criou.
@@ -48,7 +48,8 @@
 
 ### Instalando o Linux na VM
 - De volta as configurações de sua máquina, selecione novamente "Armazenamento"
-- Clique com botão esquerdo no "Disco vazio" na "Controladora: IDE", e depois clique no disco azul mais a direita da tela
+- Clique com botão esquerdo no "Disco vazio" na "Controladora: IDE"
+- Depois clique no disco azul mais a direita da tela (indicado na imagem)
 - Escolha "imagem de disco", selecione o arquivo ISO do Linux que baixamos anteriormente, no meu caso é o arquivo "V1035444-01.iso".
 <img src="SelecionandoISO.png">
 
