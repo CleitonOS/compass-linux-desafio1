@@ -82,7 +82,7 @@
 - Na seção de "sistema" ou "system", habilite o "Kdump"
 ![kdump](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/9bbccecb-5164-49c8-add4-510969da338d)
 
-- Selecione a opção de "Installation Source", e escolha "Auto-detected" como opção de instalação. Depois disso, clique no botão de verificar.]
+- Selecione a opção de "Installation Source", e escolha "Auto-detected" como opção de instalação. Depois disso, clique no botão de verificar.
  
 ![InstallationSource](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/4f6837b1-6c55-4b05-97a4-30b5eecf9c42)
   
