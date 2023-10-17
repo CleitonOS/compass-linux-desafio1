@@ -53,4 +53,53 @@
 - Escolha "imagem de disco", selecione o arquivo ISO do Linux que baixamos anteriormente, no meu caso é o arquivo "V1035444-01.iso".
 <img src="SelecionandoISO.png">
 
-- Selecione "OK", agora basta iniciar a máquina e começar a instalação do Linux.
+- Clique em "OK", agora basta iniciar a máquina e começar a instalação do Linux.
+
+## Instalação e configuração do Linux na VM
+- Agora já com a máquina virtual ligada (VM), se ocorrer tudo certo aparecerá está tela:
+![InstallOL8_9](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/bc2d3392-0bb2-4ab7-9496-493bd9914f09)
+
+- Selecione "Install Oracle Linux 8.x.x" para instalar a versão que foi baixada do Oracle Linux.
+- Escolha o idioma que você quer utilizar durante a instalação
+![InstallOL8_10](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/26b1120c-a176-433b-83d8-491cb78702e4)
+
+- Selecione o Disco Rígido Virtual que foi criado em "Installation Destination" ou "Destino de instalação"
+![InstallOL8_11](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/7cc6aa09-1c4e-48dc-8c70-04d675d4abcd)
+- ATA VBOX HARDDISK (disco virtual criado) já está selecionado, basta clicar em "DONE" e voltar.
+![InstallOL8_12](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/3aebdec0-1e51-48ad-a66c-879dd174a6e6)
+- Vamos agora para "Software Selection" ou "Seleção de Software", deixe marcadas estas duas opções da imagem.
+![SoftwareSeleciton](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/83142ea2-060d-46b9-8a10-9b9fcfb72f7c)
+
+- Criando um usuário Root, em "Root Password"
+![InstallOL8_16](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/2eecf499-75c9-4a3b-a0d4-87182656f5d4)
+
+- Configurando "Network and Host Name window", no caso as configurações de rede, na imagem a conexão é a cabo e já está selecionada, faça o mesmo com sua conexão.
+![configurando-network](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/44920722-23a3-46f4-9326-f51d87175b89)
+
+- Configurando "Time Zone", selecione a sua região.
+![TimeZonepng](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/b18caf2d-62a4-4a33-8725-0522581cc818)
+
+- Na seção de "sistema" ou "system", habilite o "Kdump"
+![kdump](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/9bbccecb-5164-49c8-add4-510969da338d)
+
+- Selecione a opção de "Installation Source", e escolha "Auto-detected" como opção de instalação. Depois disso, clique no botão de verificar.]
+ 
+![InstallationSource](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/4f6837b1-6c55-4b05-97a4-30b5eecf9c42)
+  
+- Depois de configurar tudo, comece a instalação.
+![image](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/9ee641fb-7478-442e-9560-9d89376332b1)
+
+- Quando termianr a instalação clique em "Reboot" para reiniciar o sistema.
+![image](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/214f7873-0dbe-447e-9a53-f66c8f7dc782)
+
+- Aceite a licença para terminar a configuração
+![InstallOL8_20](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/b088e9a3-0db0-4672-80b6-17505f6ccbc7)
+
+- Termine a configuração
+
+![InstallOL8_22](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/d2973c90-8441-461b-ba7c-4bfa32d7e87f)
+
+### Agora basta fazer o login com seu usuário, selecionar o idioma do sistema e teclado, e seu sistema estará pronto!
+![InstallOL8_23](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/897e1c1b-30c6-48c2-af94-d894fd307536)
+
+
