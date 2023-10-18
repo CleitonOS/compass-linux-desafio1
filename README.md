@@ -12,13 +12,13 @@
 - Logo abaixo está o link do site para download, para acessá-lo será preciso criar uma conta da Oracle.
   - https://edelivery.oracle.com/osdc/faces/SoftwareDelivery
 - Em seguida, selecione a versão do Linux que você quer utilizar e clique em "continue" como na imagem abaixo.
-<img src="OracleLinux-website.png">
+<img src="Screenshots-linux/OracleLinux-website.png">
 
 - Na próxima página selecione a plataforma/sistema operacional, para nosso caso de uso, x86 64bit servirá.
-<img src="SelecionandoPlataforma.png">
+<img src="Screenshots-linux/SelecionandoPlataforma.png">
 
 - Logo depois selecione o arquivo para download.
-<img src="EscolhendoArquivoLinux.png"> 
+<img src="Screenshots-linux/EscolhendoArquivoLinux.png"> 
 
 ## Criando a máquina virtual (VM)
 - Abra o Oracle VM VirtualBox Gerenciador
@@ -29,29 +29,29 @@
 
 ### Adicionando armazenamento na VM
 - No Oracle VM VirtualBox Gerenciador, clique na sua máquina uma vez e depois selecione "Configurações".
-<img src="ConfiguracoesVM.png">
+<img src="Screenshots-linux/ConfiguracoesVM.png">
 
 - Em seguida vá em "Armazenamento" e clique com o botão direito do mouse em "controladora: SATA", selecione a opção "Disco Rígido"
-<img src="SelecionandoArmazenamento.png">
+<img src="Screenshots-linux/SelecionandoArmazenamento.png">
 
 - Agora clique em "Criar" e selecione o tipo de arquivo como "VDI (VirtualBox Disk Image)"
-<img src="EscolhendoTipoArmazenamento.png">
+<img src="Screenshots-linux/EscolhendoTipoArmazenamento.png">
 
 - Recomendo que você selecione está opção "Pré-alocar Tamanho Total", principalmente se você não tem muito espaço de armazenamento disponível.
-<img src="Pre-alocandoTamanho.png">
+<img src="Screenshots-linux/Pre-alocandoTamanho.png">
 
 - Definindo um tamanho para o disco rígido virtual, recomendo que selecione um tamanho maior que o arquivo de instalação do "Oracle Linux". Nesse caso vou selecionar 20 GB que é mais do que suficiente.
-<img src="DefinindoTamanhoArmazenamento.png">
+<img src="Screenshots-linux/DefinindoTamanhoArmazenamento.png">
 
 - Agora basta finalizar o processo e adicionar o disco rígido virtual que você criou.
-<img src="SelecionandoHardDisk.png">
+<img src="Screenshots-linux/SelecionandoHardDisk.png">
 
 ### Instalando o Linux na VM
 - De volta as configurações de sua máquina, selecione novamente "Armazenamento"
 - Clique com botão esquerdo no "Disco vazio" na "Controladora: IDE"
 - Depois clique no disco azul mais a direita da tela (indicado na imagem)
 - Escolha "imagem de disco", selecione o arquivo ISO do Linux que baixamos anteriormente, no meu caso é o arquivo "V1035444-01.iso".
-<img src="SelecionandoISO.png">
+<img src="Screenshots-linux/SelecionandoISO.png">
 
 - Clique em "OK", agora basta iniciar a máquina e começar a instalação do Linux.
 
