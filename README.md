@@ -60,13 +60,16 @@
 ![InstallOL8_9](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/bc2d3392-0bb2-4ab7-9496-493bd9914f09)
 
 - Selecione "Install Oracle Linux 8.x.x" para instalar a versão que foi baixada do Oracle Linux.
+
 - Escolha o idioma que você quer utilizar durante a instalação
 ![InstallOL8_10](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/26b1120c-a176-433b-83d8-491cb78702e4)
 
 - Selecione o Disco Rígido Virtual que foi criado em "Installation Destination" ou "Destino de instalação"
 ![InstallOL8_11](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/7cc6aa09-1c4e-48dc-8c70-04d675d4abcd)
+
 - ATA VBOX HARDDISK (disco virtual criado) já está selecionado, basta clicar em "DONE" e voltar.
 ![InstallOL8_12](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/3aebdec0-1e51-48ad-a66c-879dd174a6e6)
+
 - Vamos agora para "Software Selection" ou "Seleção de Software", deixe marcadas estas duas opções da imagem.
 ![SoftwareSeleciton](https://github.com/CleitonOS/compass-linux-desafio1/assets/107083529/83142ea2-060d-46b9-8a10-9b9fcfb72f7c)
 
